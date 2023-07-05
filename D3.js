@@ -218,7 +218,7 @@ console.log(characters);
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
-randomIndex = Math.floor(Math.random() * 10);
+randomIndex = Math.floor(Math.random() * starWarsCharacters.length);
 console.log(`Il personaggio estratto è:
 Nome: ${starWarsCharacters[randomIndex].name}
 Peso: ${starWarsCharacters[randomIndex].mass}
